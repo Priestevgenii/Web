@@ -1,0 +1,7 @@
+1. mkdir skillup
+2. cd skillup/
+3. touch test{1..5}
+4.1 date >> test1 && date >> test2 && date >> test3 && date >> test4 && date >> test5
+4.2 date >> test1 | date >> test2 | date >> test3 | date >> test4 | date >> test5
+5. cat tes* | grep '2017' |  wc -l
+6. cd ../ && rm -rf skillup/
